@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  color: #333333;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+  line-height: 16px;
+}
+.main {
+  width: 770px;
+  margin: 64px 0 0 150px;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+.cards_item_title {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+.m_pop {
+  color: #a3a2a2;
+}
+.new {
+  color: red;
+}
+.title {
+  font-size: 32px;
+  line-height: 37px;
+}
+.subtitle {
+  font-size: 16px;
+  line-height: 19px;
+}
+.value {
+  font-weight: normal;
+}
+.search-bar {
+  display: inline-flex;
+
+  width: 655px;
+  height: 46px;
+  padding: 14px;
+  font-size: 12px;
+  line-height: 14px;
+  border: 1px solid #e0e0e0;
+}
+.search {
+  position: relative;
+  display: inline-flex;
+}
+.search::after {
+  position: absolute;
+  content: '';
+  top: 15px;
+  right: 21px;
+  width: 18px;
+  height: 19px;
+  background: url('../static/Vector.png') no-repeat;
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.search-bar:focus {
+  outline: none;
+}
+
+.search-bar:focus + .search-icon {
+  /* стили для иконки при фокусе поля */
+}
+.listItem {
+  list-style: none;
+}
+.pages {
+  display: flex;
+  align-items: center;
+}
+.page {
+  margin: 0 5px;
+  color: #bdbdbd;
+  cursor: pointer;
+}
+.page:hover {
+  color: black;
+  font-size: 16px;
+}
+.currentPage {
+  color: black;
+  font-size: 16px;
+}
+.arrow {
+  height: 10px;
+  cursor: pointer;
+}
+/* .pages::after {
+  cursor: pointer;
+  position: absolute;
+  content: '';
+  top: 3px;
+  width: 84px;
+  height: 10px;
+  background: url('../static/arrowRight.png') no-repeat;
+}
+.pages::before {
+  cursor: pointer;
+  position: absolute;
+  content: '';
+  top: 3px;
+  left: -13%;
+  width: 84px;
+  height: 10px;
+  background: url('../static/arrowLeft.png') no-repeat;
+} */
