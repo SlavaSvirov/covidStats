@@ -40,7 +40,6 @@
 }
 .search-bar {
   display: inline-flex;
-
   width: 655px;
   height: 46px;
   padding: 14px;
@@ -59,7 +58,7 @@
   right: 21px;
   width: 18px;
   height: 19px;
-  background: url('../static/Vector.png') no-repeat;
+  background: url('../static/magnifier.png') no-repeat;
 }
 
 .search-icon {

@@ -108,7 +108,7 @@ const index = ({ countries }) => {
         <img
           onClick={(e) => handleClickOnArrow(e)}
           className="arrow"
-          src="../../static/arrowLeft.png"
+          src="../static/arrowLeft.png"
           alt="left"
         />
         {pages.map((page, index) => (
@@ -123,7 +123,7 @@ const index = ({ countries }) => {
         <img
           onClick={(e) => handleClickOnArrow(e)}
           className="arrow"
-          src="../../static/arrowRight.png"
+          src="../static/arrowRight.png"
           alt="right"
         />
       </div>
